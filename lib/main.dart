@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_calendar/calendar.dart';
 
-void main() => runApp(AgendaAppointmentAppearance());
+void main() => runApp(const AgendaAppointmentAppearance());
 
 class AgendaAppointmentAppearance extends StatelessWidget {
+  const AgendaAppointmentAppearance({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -13,7 +15,7 @@ class AgendaAppointmentAppearance extends StatelessWidget {
             child: SfCalendar(
               view: CalendarView.month,
               dataSource: getCalendarDataSource(),
-              monthViewSettings: MonthViewSettings(
+              monthViewSettings: const MonthViewSettings(
                   showAgenda: true,
                   agendaStyle: AgendaStyle(
                     backgroundColor: Colors.tealAccent,
