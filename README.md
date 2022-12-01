@@ -6,6 +6,8 @@ You can customise the agenda view appointment appearance in the Flutter Event Ca
 
 The [appointmentTextStyle](https://pub.dev/documentation/syncfusion_flutter_calendar/latest/calendar/AgendaStyle/appointmentTextStyle.html), [dayTextStyle](https://pub.dev/documentation/syncfusion_flutter_calendar/latest/calendar/AgendaStyle/dayTextStyle.html), [dateTextStyle](https://pub.dev/documentation/syncfusion_flutter_calendar/latest/calendar/AgendaStyle/dateTextStyle.html), and [backgroundColor](https://pub.dev/documentation/syncfusion_flutter_calendar/latest/calendar/AgendaStyle/backgroundColor.html) properties can be used to customise the agenda view.
 
+![AgendaViewAppearance](https://user-images.githubusercontent.com/46158936/204989267-ca5e7e81-1367-4022-9b3d-f1ec816f8d80.gif)
+
 You can also refer our UG documentation to know more about [AgendaViewAppearance](https://help.syncfusion.com/flutter/calendar/month-view#agenda-view-appearance).
 
 ## Requirements to run the demo
